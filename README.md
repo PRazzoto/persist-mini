@@ -66,22 +66,9 @@ is_empty = Queue.empty?(queue2)              # false
 list = Queue.to_list(queue2)                 # [:b]
 ```
 
-## API Documentation
-
-- All modules and functions are documented inline with `@moduledoc` and `@doc` annotations.
-- Generate HTML docs locally with [ExDoc](https://github.com/elixir-lang/ex_doc):
-
-```sh
-mix docs
-```
-
-Read the generated docs in `doc/index.html` after running the above command.
-
-When published to Hex, docs are accessible at [HexDocs](https://hexdocs.pm/persist_mini).
-
 ## Running Tests
 
-Tests are provided for both Stack and Queue modules.
+Tests are provided for both Stack and Queue modules. There is also one test that uses the functions created to implement a solution.
 
 Run the tests with:
 
